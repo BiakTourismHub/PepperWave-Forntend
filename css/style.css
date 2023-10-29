@@ -82,3 +82,37 @@ body {
 .form-control::placeholder {
     opacity: 0.5; /* Ubah nilai opasitas sesuai preferensi Anda, 1 adalah opasitas penuh */
   }
+
+  /* Gaya tambahan untuk profil developer */
+  .developer-profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .developer-profile img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .developer-profile .description {
+    flex: 1;
+  }
+
+  .developer-profile a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+
+  /* Gaya footer */
+  .footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
