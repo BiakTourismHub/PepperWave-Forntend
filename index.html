@@ -1,114 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page Pepper Wave</title>
-  <!-- Tambahkan Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hendy & Indry Wedding's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100;0,400;0,600;1,700&display=swap" rel="stylesheet"> 
+    
+    <!-- Simply Countdown -->
+    <link rel="stylesheet" href="css/simplyCountdown.theme.default.css"/>
+    <script src="js/simplyCountdown.min.js"></script>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Pepper Wave</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#features">Fitur</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#download">Unduh</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Kontak</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Pepper Wave, </h4>
+            <h1>Cashier Restaurant</h1>
+            <a href="#undangan" class="btn btn-lg">Login</a>
+        </main>
+    </section>
 
-  <!-- Header Section -->
-  <header class="header bg-primary text-white text-center py-5">
-    <h1>Selamat Datang di Pepper Wave</h1>
-    <p>Aplikasi Pelacak Keuangan Pribadi</p>
-    <a href="#download" class="btn btn-light btn-lg">Unduh Sekarang</a>
-  </header>
 
-  <!-- Features Section -->
-  <section id="features" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="feature-icon">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <h3>Manajemen Keuangan</h3>
-          <p>Monitor dan kelola keuangan pribadi Anda dengan mudah.</p>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-icon">
-            <i class="fas fa-sync"></i>
-          </div>
-          <h3>Otomatisasi</h3>
-          <p>Automatisasi transaksi dan pengeluaran dengan fitur kami.</p>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-icon">
-            <i class="fas fa-mobile-alt"></i>
-          </div>
-          <h3>Multi-Platform</h3>
-          <p>Gunakan Pepper Wave di perangkat apa pun, kapan saja.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-  <!-- Download Section -->
-  <section id="download" class="bg-light py-5">
-    <div class="container text-center">
-      <h2>Unduh Aplikasi Pepper Wave Sekarang</h2>
-      <p>Dapatkan kontrol penuh atas keuangan Anda.</p>
-      <a href="#" class="btn btn-primary btn-lg">Unduh Sekarang</a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h3>Hubungi Kami</h3>
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Nama Anda">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" placeholder="Email Anda">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" rows="4" placeholder="Pesan Anda"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <h3>Alamat Kami</h3>
-          <address>
-            Jl. Contoh No. 123
-            Kota Contoh
-            Indonesia
-          </address>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Tambahkan Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
