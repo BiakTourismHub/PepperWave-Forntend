@@ -13,19 +13,24 @@
             <div class="col-md-6 offset-md-3">
                 <div class="card mt-5 shadow">
                     <div class="card-header">
-                        <h2 class="text-center">Pepper Waves Retaurant Login</h2>
+                        <h2 class="text-center">Pepper Waves Restaurant Login</h2>
                     </div>
                     <div class="card-body">
                         <!-- Tambahkan gambar di sini -->
                         <img src="https://media.discordapp.net/attachments/1159805007600832562/1168119630557098014/logow.png?ex=65509b2e&is=653e262e&hm=d91ad13ec6ba54626878f3163f97e83441da38a5190a7f107d6161d33749ce79&=&width=1440&height=263" alt="Logo" class="img-fluid mx-auto d-block mb-3" style="max-width: 100%;">
                         <form>
-                            <div class="mb-3">
+                            <div class="form-group mb-3">
                                 <label for="username" class="form-label">Username</label>
                                 <input type="text" id="username" class="form-control" placeholder="Username" required>
                             </div>
-                            <div class="mb-3">
+                            <div class="form-group mb-3">
                                 <label for="password" class="form-label">Password</label>
-                                <input type="password" id="password" class="form-control" placeholder="Password" required>
+                                <div class="input-group">
+                                    <input type="password" id="password" class="form-control" placeholder="Password" required>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button" id="togglePassword">Lihat Password</button>
+                                    </div>
+                                </div>
                             </div>
                             <div class="d-grid gap-2">
                                 <button type="submit" class="btn btn-primary">Login</button>
@@ -38,5 +43,19 @@
             </div>
         </div>
     </div>
+    <script>
+        const passwordInput = document.getElementById('password');
+        const togglePasswordButton = document.getElementById('togglePassword');
+        
+        togglePasswordButton.addEventListener('click', () => {
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                togglePasswordButton.textContent = 'Sembunyikan Password';
+            } else {
+                passwordInput.type = 'password';
+                togglePasswordButton.textContent = 'Lihat Password';
+            }
+        });
+    </script>
 </body>
 </html>
