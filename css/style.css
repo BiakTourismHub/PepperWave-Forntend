@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(https://cdn.discordapp.com/attachments/1159805007600832562/1168117237031370782/Premium.png?ex=655098f3&is=653e23f3&hm=6d3159f8462abf4021e436ef9ea9d3d8d405fea4c817e38b08900618f9776666&);
+    background-image: url(https://cdn.discordapp.com/attachments/1159805007600832562/1168218434270679080/Hijau_dan_Merah_Ceria_Ilustrasi_Banner_Festival_Kuliner_.png?ex=6550f733&is=653e8233&hm=df2cf074f74c6bca7d1a668d0ae3545f533965ffeeb4f4ebb9356babd371870e&);
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -35,10 +35,12 @@ body {
 .hero h1 {
     font-family: 'Sacramento', cursive;
     font-size: 6rem;
+    color: #000;
 }
 
 .hero h4 {
     font-size: 1.6rem;
+    color: #000;
 }
 
 .hero p {
